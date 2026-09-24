@@ -87,7 +87,7 @@
     const url = window.location.href;
     const image = project.image
       ? new URL(project.image, window.location.origin).href
-      : "https://idriss-jbilou.vercel.app/assets/img/idriss-jbilou.webp";
+      : "https://idrissjbilou.vercel.app/assets/img/idriss-jbilou.webp";
 
     setMeta("link[rel='canonical']", "href", url);
     setMeta("meta[name='description']", "content", description);

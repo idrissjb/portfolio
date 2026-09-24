@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://idriss-jbilou.vercel.app/sitemap.xml
+Sitemap: https://idrissjbilou.vercel.app/sitemap.xml
