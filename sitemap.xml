@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://idriss-jbilou.vercel.app/fr/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://idriss-jbilou.vercel.app/fr/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://idriss-jbilou.vercel.app/en/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://idriss-jbilou.vercel.app/fr/index.html" />
+  </url>
+  <url>
+    <loc>https://idriss-jbilou.vercel.app/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://idriss-jbilou.vercel.app/fr/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://idriss-jbilou.vercel.app/en/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://idriss-jbilou.vercel.app/fr/index.html" />
+  </url>
+
+  <url>
+    <loc>https://idriss-jbilou.vercel.app/fr/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://idriss-jbilou.vercel.app/fr/services.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://idriss-jbilou.vercel.app/en/services.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://idriss-jbilou.vercel.app/fr/services.html" />
+  </url>
+  <url>
+    <loc>https://idriss-jbilou.vercel.app/en/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://idriss-jbilou.vercel.app/fr/services.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://idriss-jbilou.vercel.app/en/services.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://idriss-jbilou.vercel.app/fr/services.html" />
+  </url>
+
+  <url>
+    <loc>https://idriss-jbilou.vercel.app/fr/realisations.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://idriss-jbilou.vercel.app/fr/realisations.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://idriss-jbilou.vercel.app/en/realisations.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://idriss-jbilou.vercel.app/fr/realisations.html" />
+  </url>
+  <url>
+    <loc>https://idriss-jbilou.vercel.app/en/realisations.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://idriss-jbilou.vercel.app/fr/realisations.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://idriss-jbilou.vercel.app/en/realisations.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://idriss-jbilou.vercel.app/fr/realisations.html" />
+  </url>
+
+  <url>
+    <loc>https://idriss-jbilou.vercel.app/fr/projet.html?slug=together-technology</loc>
+  </url>
+  <url>
+    <loc>https://idriss-jbilou.vercel.app/en/project.html?slug=together-technology</loc>
+  </url>
+
+  <url>
+    <loc>https://idriss-jbilou.vercel.app/fr/a-propos.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://idriss-jbilou.vercel.app/fr/a-propos.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://idriss-jbilou.vercel.app/en/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://idriss-jbilou.vercel.app/fr/a-propos.html" />
+  </url>
+  <url>
+    <loc>https://idriss-jbilou.vercel.app/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://idriss-jbilou.vercel.app/fr/a-propos.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://idriss-jbilou.vercel.app/en/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://idriss-jbilou.vercel.app/fr/a-propos.html" />
+  </url>
+
+  <url>
+    <loc>https://idriss-jbilou.vercel.app/fr/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://idriss-jbilou.vercel.app/fr/contact.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://idriss-jbilou.vercel.app/en/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://idriss-jbilou.vercel.app/fr/contact.html" />
+  </url>
+  <url>
+    <loc>https://idriss-jbilou.vercel.app/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://idriss-jbilou.vercel.app/fr/contact.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://idriss-jbilou.vercel.app/en/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://idriss-jbilou.vercel.app/fr/contact.html" />
+  </url>
+
+</urlset>

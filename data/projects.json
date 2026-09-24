@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "together-technology",
+    "status": "published",
+    "year": 2025,
+    "client": {
+      "fr": "Together Technology, Kénitra",
+      "en": "Together Technology, Kénitra"
+    },
+    "category": {
+      "fr": "Site e-commerce",
+      "en": "E-commerce website"
+    },
+    "title": {
+      "fr": "Together Technology",
+      "en": "Together Technology"
+    },
+    "summary": {
+      "fr": "Application web e-commerce complète pour la vente de matériel informatique, réseau, vidéosurveillance et gaming — conception et développement intégral, du front-end au back-end.",
+      "en": "End-to-end e-commerce web application for IT, networking, video surveillance and gaming equipment — full design and development, from front-end to back-end."
+    },
+    "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "Django", "PostgreSQL"],
+    "demoUrl": "https://togethertechnology.ma/",
+    "repoUrl": null,
+    "image": "/assets/img/projects/together-technology.webp",
+    "description": {
+      "fr": "<p>Together Technology est une boutique en ligne basée à Kénitra, spécialisée dans l'informatique, la vidéosurveillance, le matériel réseau et le gaming. J'ai conçu et développé l'intégralité du site : interface utilisateur (HTML, Bootstrap, CSS, JavaScript) et back-end (Django, PostgreSQL) pour la gestion du catalogue produits.</p><p>Le site propose plusieurs centaines de produits répartis en catégories (informatique, réseau, vidéosurveillance, gaming), avec fiches produits détaillées, gestion des prix et des promotions, et une interface d'administration pour la mise à jour du catalogue.</p>",
+      "en": "<p>Together Technology is an online store based in Kénitra, specialized in IT equipment, video surveillance, networking hardware, and gaming gear. I designed and built the entire site: the front-end (HTML, Bootstrap, CSS, JavaScript) and the back-end (Django, PostgreSQL) for product catalog management.</p><p>The site features several hundred products across multiple categories (IT, networking, video surveillance, gaming), with detailed product pages, pricing and promotions management, and an admin interface for catalog updates.</p>"
+    }
+  }
+]

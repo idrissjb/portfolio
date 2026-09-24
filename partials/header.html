@@ -1,0 +1,54 @@
+<header class="sticky top-0 z-40 border-b border-slate-200 bg-night-950/80 backdrop-blur">
+  <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between px-6 py-4">
+    <a
+      href="/fr/index.html"
+      data-href-fr="/fr/index.html"
+      data-href-en="/en/index.html"
+      class="flex items-center gap-2 font-heading text-lg font-bold text-slate-900"
+    >
+      <span class="flex h-9 w-9 items-center justify-center rounded-lg bg-cyan-accent/10 text-cyan-accent" aria-hidden="true">
+        <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <circle cx="6" cy="7" r="1.8" fill="currentColor" stroke="none" />
+          <circle cx="18" cy="7" r="1.8" fill="currentColor" stroke="none" />
+          <circle cx="12" cy="18" r="1.8" fill="currentColor" stroke="none" />
+          <path stroke-linecap="round" stroke-width="1.5" d="M6 7L18 7M6 7L12 18M18 7L12 18" />
+        </svg>
+      </span>
+      Idriss<span class="text-cyan-accent">.</span>Jbilou
+    </a>
+
+    <button
+      id="nav-toggle"
+      type="button"
+      class="inline-flex items-center justify-center rounded-md p-2 text-slate-700 md:hidden"
+      aria-controls="nav-menu"
+      aria-expanded="false"
+      data-label-fr="Ouvrir le menu"
+      data-label-en="Open menu"
+      aria-label="Ouvrir le menu"
+    >
+      <svg id="nav-toggle-icon-open" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+      <svg id="nav-toggle-icon-close" class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+    <nav id="nav-menu" aria-label="Navigation principale" class="hidden w-full order-3 mt-4 md:order-none md:mt-0 md:flex md:w-auto md:items-center md:gap-8">
+      <ul class="flex flex-col gap-4 md:flex-row md:items-center md:gap-8">
+        <li><a class="nav-link" data-href-fr="/fr/index.html" data-href-en="/en/index.html" data-label-fr="Accueil" data-label-en="Home">Accueil</a></li>
+        <li><a class="nav-link" data-href-fr="/fr/services.html" data-href-en="/en/services.html" data-label-fr="Services" data-label-en="Services">Services</a></li>
+        <li><a class="nav-link" data-href-fr="/fr/realisations.html" data-href-en="/en/realisations.html" data-label-fr="Réalisations" data-label-en="Work">Réalisations</a></li>
+        <li><a class="nav-link" data-href-fr="/fr/a-propos.html" data-href-en="/en/about.html" data-label-fr="À propos" data-label-en="About">À propos</a></li>
+        <li><a class="nav-link" data-href-fr="/fr/contact.html" data-href-en="/en/contact.html" data-label-fr="Contact" data-label-en="Contact">Contact</a></li>
+      </ul>
+
+      <div class="flex items-center gap-2 border-t border-slate-200 pt-4 md:border-0 md:pt-0" role="group" aria-label="Sélecteur de langue">
+        <a data-lang-link="fr" class="lang-link" hreflang="fr">FR</a>
+        <span class="text-slate-300" aria-hidden="true">/</span>
+        <a data-lang-link="en" class="lang-link" hreflang="en">EN</a>
+      </div>
+    </nav>
+  </div>
+</header>

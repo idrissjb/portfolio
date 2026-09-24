@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://idriss-jbilou.vercel.app/sitemap.xml

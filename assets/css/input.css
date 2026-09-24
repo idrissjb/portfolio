@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+/* Design system du portfolio — palette claire, typographies, rayons */
+@theme {
+  /* Palette claire : fond blanc/gris très clair, surfaces blanches, accent bleu indigo, accent secondaire vert */
+  --color-night-950: #f8fafc;
+  --color-night-900: #ffffff;
+  --color-night-800: #f1f5f9;
+  --color-night-700: #e2e8f0;
+  --color-night-600: #cbd5e1;
+
+  --color-cyan-accent: #2563eb;
+  --color-cyan-accent-soft: #60a5fa;
+
+  --color-terminal-green: #059669;
+
+  /* Typographies auto-hébergées */
+  --font-heading: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Rayons subtils */
+  --radius-card: 0.75rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-night-950);
+    color: #0f172a;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-sm font-medium text-slate-600 transition-colors hover:text-cyan-accent;
+  }
+
+  .nav-link--active {
+    @apply text-cyan-accent;
+  }
+
+  .lang-link {
+    @apply cursor-pointer font-mono text-xs text-slate-500 transition-colors hover:text-cyan-accent;
+  }
+
+  .lang-link--active {
+    @apply text-cyan-accent;
+  }
+
+  .social-link {
+    @apply text-slate-500 transition-colors hover:text-cyan-accent;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-card border border-cyan-accent/30 bg-cyan-accent/10 px-6 py-3 font-medium text-cyan-accent shadow-[0_0_20px_-8px_var(--color-cyan-accent)] transition hover:bg-cyan-accent/20 hover:shadow-[0_0_30px_-8px_var(--color-cyan-accent)] motion-reduce:transition-none motion-reduce:hover:shadow-[0_0_20px_-8px_var(--color-cyan-accent)];
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-card border border-slate-300 px-6 py-3 font-medium text-slate-700 transition hover:border-cyan-accent/50 hover:text-cyan-accent motion-reduce:transition-none;
+  }
+
+  .case-study-content p + p {
+    @apply mt-4;
+  }
+
+  .form-label {
+    @apply mb-1.5 block text-sm font-medium text-slate-700;
+  }
+
+  .form-input {
+    @apply w-full rounded-card border border-slate-300 bg-white px-4 py-2.5 text-slate-900 placeholder:text-slate-400 transition focus:border-cyan-accent focus:outline-none focus:ring-2 focus:ring-cyan-accent/30;
+  }
+
+  .contact-link {
+    @apply flex items-center gap-3 rounded-card border border-slate-200 bg-night-900 p-4 text-sm text-slate-700 transition hover:border-cyan-accent/40 hover:text-cyan-accent;
+  }
+
+  .service-card {
+    @apply rounded-card border border-slate-200 bg-night-900 p-6 shadow-sm transition hover:border-cyan-accent/40 hover:shadow-md;
+  }
+
+  .service-icon {
+    @apply flex h-11 w-11 items-center justify-center rounded-full bg-cyan-accent/10 text-cyan-accent;
+  }
+
+  .skill-badge {
+    @apply rounded-full border border-slate-200 bg-night-900 px-4 py-2 font-mono text-sm text-slate-700 shadow-sm transition hover:border-cyan-accent/40 hover:text-cyan-accent;
+  }
+
+  a:focus-visible,
+  button:focus-visible {
+    @apply outline-none ring-2 ring-cyan-accent ring-offset-2 ring-offset-night-950;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
