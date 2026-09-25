@@ -1,5 +1,38 @@
 [
   {
+    "slug": "cafe-manager-pos",
+    "status": "published",
+    "year": 2026,
+    "client": {
+      "fr": "Cafés, snacks et salons de thé",
+      "en": "Cafés, snacks and tea rooms"
+    },
+    "category": {
+      "fr": "Logiciel de caisse (Java)",
+      "en": "POS software (Java)"
+    },
+    "title": {
+      "fr": "Café Manager",
+      "en": "Café Manager"
+    },
+    "summary": {
+      "fr": "Logiciel desktop Java de caisse et de gestion des commandes pour café : produits, catégories, tables, tickets, paiements, utilisateurs et statistiques, livré en application Windows (.exe).",
+      "en": "Java desktop point-of-sale and order management software for cafés: products, categories, tables, tickets, payments, users and statistics, delivered as a Windows (.exe) application."
+    },
+    "stack": [
+      "Java",
+      "Application desktop",
+      "Windows (.exe)"
+    ],
+    "demoUrl": null,
+    "repoUrl": "https://github.com/idrissjb/logiciel-cafe_demo",
+    "image": "/assets/img/projects/cafe-manager-pos.webp",
+    "description": {
+      "fr": "<p>Café Manager est un logiciel desktop développé en Java, conçu pour faciliter la gestion quotidienne d'un café. Il permet de gérer rapidement les commandes, produits, catégories, tables, tickets, paiements, utilisateurs et statistiques depuis une interface moderne et intuitive.</p><p>Le logiciel est fourni sous forme d'application Windows .exe et peut être personnalisé selon les besoins du client : ajout de produits, modification des prix, catégories, fonctionnalités spécifiques, logo, couleurs ou organisation de l'interface.</p><p>Idéal pour les cafés, snacks, salons de thé et petites structures de restauration souhaitant disposer d'un système de caisse simple, rapide et adapté à leur activité.</p>",
+      "en": "<p>Café Manager is a desktop application built in Java to simplify the day-to-day running of a café. It handles orders, products, categories, tables, tickets, payments, users and statistics through a modern, intuitive interface.</p><p>It ships as a Windows .exe application and can be customized to each client's needs: adding products, changing prices, categories, specific features, logo, colors or interface layout.</p><p>Ideal for cafés, snack bars, tea rooms and small food-service businesses looking for a simple, fast point-of-sale system tailored to their activity.</p>"
+    }
+  },
+  {
     "slug": "together-technology",
     "status": "published",
     "year": 2025,
@@ -19,7 +52,14 @@
       "fr": "Application web e-commerce complète pour la vente de matériel informatique, réseau, vidéosurveillance et gaming — conception et développement intégral, du front-end au back-end.",
       "en": "End-to-end e-commerce web application for IT, networking, video surveillance and gaming equipment — full design and development, from front-end to back-end."
     },
-    "stack": ["HTML", "CSS", "Bootstrap", "JavaScript", "Django", "PostgreSQL"],
+    "stack": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "Django",
+      "PostgreSQL"
+    ],
     "demoUrl": "https://togethertechnology.ma/",
     "repoUrl": null,
     "image": "/assets/img/projects/together-technology.webp",
